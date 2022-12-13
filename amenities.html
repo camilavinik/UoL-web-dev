@@ -9,16 +9,16 @@
   </head>
   <body>
     <!-- buy now button with fixed position css -->
-    <button>Buy Now</button>
-    <!-- buy now button modal when clicked -->
-    <div>
+    <button id="buy-now">Buy Now</button>
+    <!-- buy now button modal when clicked. Todo with JavaScript -->
+    <!-- <div>
       <h3>See you soon!</h3>
       <p>
         Let us your email and a specialist will contact you in the next 24hs.
       </p>
       <input type="text" placeholder="example@mail.com" />
       <button>Contact me!</button>
-    </div>
+    </div> -->
     <!-- header containing logo and navigation menu -->
     <header class="header">
       <div class="logo-container">
@@ -40,27 +40,21 @@
     </section>
     <!-- list of amenities -->
     <section>
-      <ul>
-        <li>
+      <ul class="card-list">
+        <li class="card">
           <img src="./assets/nasa-04-cafe.webp" alt="NASA 04 Cafe" />
-          <div>
-            <h3>NASA 04 Cafe</h3>
-          </div>
+          <h3>NASA 04 Cafe</h3>
         </li>
-        <li>
+        <li class="card">
           <img src="./assets/space-shop.jpeg" alt="Space Shop" />
-          <div>
-            <h3>Space Shop</h3>
-          </div>
+          <h3>Space Shop</h3>
         </li>
-        <li>
+        <li class="card">
           <img
             src="./assets/medical-assistance.jpeg"
             alt="Medical Assistance"
           />
-          <div>
-            <h3>Medical Assistance</h3>
-          </div>
+          <h3>Medical Assistance</h3>
         </li>
       </ul>
     </section>
