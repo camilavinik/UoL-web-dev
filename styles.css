@@ -130,6 +130,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 32px;
     padding-top: 0;
     gap: 32px;
