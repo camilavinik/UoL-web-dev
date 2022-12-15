@@ -8,10 +8,11 @@
     <title>Spacepark</title>
   </head>
   <body>
-    <!-- buy now button with fixed position css -->
-    <button id="buy-now">Buy Now</button>
-    <!-- buy now button modal when clicked. Todo with JavaScript -->
-    <!-- <div>
+    <div>
+      <!-- buy now button with fixed position css -->
+      <button id="buy-now">Buy Now</button>
+      <!-- buy now button modal when clicked. Todo with JavaScript -->
+      <!-- <div>
       <h3>See you soon!</h3>
       <p>
         Let us your email and a specialist will contact you in the next 24hs.
@@ -19,41 +20,51 @@
       <input type="text" placeholder="example@mail.com" />
       <button>Contact me!</button>
     </div> -->
-    <!-- header containing logo and navigation menu -->
-    <header class="header">
-      <div class="logo-container">
-        <i>
-          <h1>Spacepark</h1>
-        </i>
-      </div>
-      <nav>
-        <ul class="nav-container">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./attractions.html">Attractions</a></li>
-          <li><a href="./amenities.html">Amenities</a></li>
+      <!-- header containing logo and navigation menu -->
+      <header class="header">
+        <div class="logo-container">
+          <i>
+            <h1>Spacepark</h1>
+          </i>
+        </div>
+        <nav>
+          <ul class="nav-container">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./attractions.html">Attractions</a></li>
+            <li><a href="./amenities.html">Amenities</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- attractions slogan -->
+      <section class="slogan">
+        <i><h2>A journey for everyone</h2></i>
+      </section>
+      <!-- list of attractions -->
+      <section>
+        <ul class="card-list">
+          <li class="card">
+            <img
+              src="./assets/first-trip.jpeg"
+              alt="Attraction The First Trip"
+            />
+            <h3>The First Trip</h3>
+          </li>
+          <li class="card">
+            <img
+              src="./assets/rocket-crash.jpeg"
+              alt="Attraction Rocket Crash"
+            />
+            <h3>Rocket Crash</h3>
+          </li>
+          <li class="card">
+            <img src="./assets/lightyears.webp" alt="Attraction " />
+            <h3>Lightyears</h3>
+          </li>
         </ul>
-      </nav>
-    </header>
-    <!-- attractions slogan -->
-    <section class="slogan">
-      <i><h2>A journey for everyone</h2></i>
-    </section>
-    <!-- list of attractions -->
-    <section>
-      <ul class="card-list">
-        <li class="card">
-          <img src="./assets/first-trip.jpeg" alt="Attraction The First Trip" />
-          <h3>The First Trip</h3>
-        </li>
-        <li class="card">
-          <img src="./assets/rocket-crash.jpeg" alt="Attraction Rocket Crash" />
-          <h3>Rocket Crash</h3>
-        </li>
-        <li class="card">
-          <img src="./assets/lightyears.webp" alt="Attraction " />
-          <h3>Lightyears</h3>
-        </li>
-      </ul>
-    </section>
+      </section>
+    </div>
+    <footer class="copyright">
+      <p>© spacepark</p>
+    </footer>
   </body>
 </html>

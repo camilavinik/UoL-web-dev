@@ -8,6 +8,13 @@
   color: #3f3b6c;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #buy-now {
   position: fixed;
   top: 18px;
